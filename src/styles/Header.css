@@ -1,0 +1,17 @@
+/* src/styles/Header.css */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.header img {
+  max-width: 30px;
+  margin: 0 10px;
+}
+
+.logo {
+  max-width: 100px; /* Adjust as needed */
+}

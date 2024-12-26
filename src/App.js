@@ -1,14 +1,11 @@
 import React from 'react';
-import './App.css'; // Ensure the App.css file exists in the src directory
-
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
+import Wallet from './components/Wallet'; // Correctly import the Wallet component
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <HeroSection />
+    <div>
+      <h1>Solana Wallet</h1>
+      <Wallet />
     </div>
   );
 }

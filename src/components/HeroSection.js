@@ -1,12 +1,11 @@
 import React from 'react';
-import './HeroSection.css';
+import '../styles/HeroSection.css';  // Correct the path to point to the styles folder
 
 const HeroSection = () => {
   return (
     <div className="hero">
       <video autoPlay loop muted className="background-video">
         <source src="https://stonkscoin.org/images/stocksbg.gif" type="video/mp4" />
-        {/* You can add additional formats for compatibility */}
         <source src="https://stonkscoin.org/images/stocksbg.gif" type="video/webm" />
       </video>
       <h1>Welcome to Trust in Pawgress</h1>

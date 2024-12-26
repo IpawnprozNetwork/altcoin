@@ -1,0 +1,63 @@
+.wallet-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.wallet-header {
+  margin-bottom: 20px;
+}
+
+.wallet-logo {
+  width: 150px;
+  height: auto;
+}
+
+.transaction-section form {
+  margin: 20px 0;
+}
+
+.transaction-section label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.transaction-section input {
+  width: 300px;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.transaction-section button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.transaction-section button:hover {
+  background-color: #218838;
+}
+
+.wallet-footer {
+  margin-top: 30px;
+}
+
+.wallet-footer nav {
+  display: flex;
+  justify-content: center;
+}
+
+.wallet-footer nav a {
+  margin: 0 15px;
+}
+
+.wallet-footer nav img {
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.wallet-footer nav img:hover {
+  transform: scale(1.1);
+}

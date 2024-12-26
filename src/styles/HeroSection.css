@@ -1,0 +1,28 @@
+.hero {
+    position: relative;
+    text-align: center;
+  }
+  
+  .background-video {
+    width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
